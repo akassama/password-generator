@@ -1,0 +1,24 @@
+/* set custom background colr classes */
+.poor-bg{
+  background-color: #db6e84;
+}
+
+.weak-bg{
+  background-color: #fff8b5;
+}
+
+.good-bg{
+  background-color: #d9f4fc;
+}
+
+.strong-bg{
+  background-color: #c3f7c3;
+}
+
+
+/* sticky footer style */
+.sticky-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
