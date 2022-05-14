@@ -67,16 +67,16 @@ $( document ).ready(function() {
   * The codes changes the value of the range input (length) on change
   * It then runs the fuction to generate new password with the current settings
   */
-  $("#pass-range").change(function(){
-    var new_val = $(this).val();
-    $("#pass-length").text(new_val);
+$(document).on('input change', '#pass-range', function() {
+  var new_val = $(this).val();
+  $("#pass-length").text(new_val);
 
-    //generate password
-    passwordGenerator();
+  //generate password
+  passwordGenerator();
 
-    //set emoji reaction
-    setEmoji();
-  });
+  //set emoji reaction
+  setEmoji();
+});
 
 
 
